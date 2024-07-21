@@ -83,8 +83,6 @@ const filteredLog = searchResult[0].log.filter(x=>{
   }
   return y
 })
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(limit,array.slice(0,limit))
 res.json({
   _id: userId,
   username: searchResult[0].username,
